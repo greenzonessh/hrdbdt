@@ -17,13 +17,13 @@ class tampilanController extends Controller
     }
 
     public function viewMaster(){
-        $data = m_actor::on('pgsql-master')->select('* from actor')->orderBy('last_update','DESC')->paginate(10);
+        $data = m_actor::on('pgsql-master')->select('*')->orderBy('last_update','DESC')->paginate(10);
 
         return view('indexmaster',compact('data'));
     }
 
     public function viewSlave01(){
-        $data = m_actor::on('pgsql-slave01')->select('* from actor')->orderBy('last_update','DESC')->paginate(10);
+        $data = m_actor::on('pgsql-slave01')->select('*')->orderBy('last_update','DESC')->paginate(10);
 
         return view('indexmaster',compact('data'));
     }
