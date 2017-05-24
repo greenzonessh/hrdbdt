@@ -25,6 +25,6 @@ class tampilanController extends Controller
     public function viewSlave01(){
         $data = m_actor::on('pgsql-slave01')->select('*')->orderBy('last_update','DESC')->paginate(10);
 
-        return view('indexmaster',compact('data'));
+        return view('indexslave01',compact('data'));
     }
 }
