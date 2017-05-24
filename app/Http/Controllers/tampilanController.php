@@ -11,7 +11,7 @@ class tampilanController extends Controller
 {
     public function viewIndex(){
 
-        $data = DB::connection('read')->orderBy('last_update','ASC')->get();
+        $data = DB::connection('pgsql.read')->select('* from actor')->get();
 
         return view('index',compact('data'));
     }
