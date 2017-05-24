@@ -42,7 +42,7 @@
                 <li><a href="/">Home</a></li>
                 <li class="active"><a href="master">Lihat Data di master</a></li>
                 <li><a href="slave01">Lihat Data di slave01</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="kontak">Contact</a></li>
             </ul>
         </nav>
     </div>
