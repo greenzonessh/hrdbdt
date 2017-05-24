@@ -53,7 +53,7 @@
         @php($host_name = gethostbyaddr($_SERVER['REMOTE_ADDR']))
         <h1>Hi, Your {{$ip_num}} and Computer {{$host_name}} siap ane laporin polisi</h1>
         <p class="lead">WASPADALAH !!!</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Tambah Data</a></p>
+        <p><a class="btn btn-lg btn-success" href="tambah" role="button">Tambah Data</a></p>
     </div>
 
     <!-- Example row of columns -->

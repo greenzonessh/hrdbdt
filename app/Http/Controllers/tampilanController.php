@@ -35,8 +35,10 @@ class tampilanController extends Controller
 
     public function tambah(Request $request){
 
-        $insert = new m_actor();
-        $insert->save([create($request->all())]);
+        DB::transaction(function ($request) use ($request) {
+            $insert = new m_actor();
+            $insert->save([create($request->all())]);
+        });
 
         redirect('/master');
     }
