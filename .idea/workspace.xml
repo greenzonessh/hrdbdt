@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e88c5b-359c-4c1e-abef-50f476c759c7" name="Default" comment="baru test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-    </list>
+    <list default="true" id="f4e88c5b-359c-4c1e-abef-50f476c759c7" name="Default" comment="baru test" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +348,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495646724413</updated>
-      <workItem from="1495646726160" duration="6917000" />
+      <workItem from="1495646726160" duration="6997000" />
     </task>
     <task id="LOCAL-00001" summary="baru test">
       <created>1495650335607</created>
@@ -363,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6917000" />
+    <option name="totallyTimeSpent" value="6997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
