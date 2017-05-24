@@ -42,6 +42,6 @@ class tampilanController extends Controller
             $insert->save();
         });
 
-        redirect('/master');
+        return redirect('/master');
     }
 }
