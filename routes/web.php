@@ -12,3 +12,6 @@
 */
 
 Route::get('/','tampilanController@viewIndex');
+
+Route::get('/master','tampilanController@viewMaster');
+Route::get('/slave01','tampilanController@viewSlave01');
