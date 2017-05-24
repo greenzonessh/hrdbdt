@@ -39,8 +39,8 @@
         <h3 class="text-muted">ANGGA BDT</h3>
         <nav>
             <ul class="nav nav-justified">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="master">Lihat Data di master</a></li>
+                <li><a href="/">Home</a></li>
+                <li class="active"><a href="master">Lihat Data di master</a></li>
                 <li><a href="slave01">Lihat Data di slave01</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -49,12 +49,7 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-        @php($ip_num = $_SERVER['REMOTE_ADDR'])
-        @php($host_name = gethostbyaddr($_SERVER['REMOTE_ADDR']))
-        <h1>Hi, Your {{$ip_num}} and Computer {{$host_name}} siap ane laporin polisi</h1>
-        <p class="lead">WASPADALAH !!!</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Tambah Data</a></p>
-    </div>
+        <h1>Ini Data di master</h1>
 
     <!-- Example row of columns -->
     <div class="row">
