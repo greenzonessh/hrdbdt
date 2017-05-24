@@ -27,4 +27,12 @@ class tampilanController extends Controller
 
         return view('indexslave01',compact('data'));
     }
+
+    public function tambah(Request $request){
+
+        $insert = new m_actor();
+        $insert->save([create($request->all())]);
+
+        redirect('/master');
+    }
 }
