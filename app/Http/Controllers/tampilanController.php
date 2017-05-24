@@ -11,7 +11,7 @@ class tampilanController extends Controller
 {
     public function viewIndex(){
 
-        $data = m_actor::all();
+        $data = m_actor::paginate(10);
 
         return view('index',compact('data'));
     }
