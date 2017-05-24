@@ -49,35 +49,8 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-        @php($ip_num = $_SERVER['REMOTE_ADDR'])
-        @php($host_name = gethostbyaddr($_SERVER['REMOTE_ADDR']))
-        <h1>Hi, Your {{$ip_num}} and Computer {{$host_name}}</h1>
-        <p><a class="btn btn-lg btn-success" href="tambah" role="button">Tambah Data</a></p>
-    </div>
-
-    <!-- Example row of columns -->
-    <div class="row">
-        <table class="table table-hover table-responsive">
-            <thead>
-            <tr>
-                <th>actor_id</th>
-                <th>Firts Name</th>
-                <th>Last Name</th>
-                <th>Last Time</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach($data as $actors)
-                <tr>
-                    <td>{{$actors->actor_id}}</td>
-                    <td>{{$actors->first_name}}</td>
-                    <td>{{$actors->last_name}}</td>
-                    <td>{{$actors->last_update}}</td>
-                </tr>
-            @endforeach
-            </tbody>
-        </table>
-        {!! $data->render() !!}
+        <h3>Angga Dwi Hariadi 08258824694</h3> <br>
+        <h3>mau server BDT, PM me</h3>
     </div>
 
     <!-- Site footer -->

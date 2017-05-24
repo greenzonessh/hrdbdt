@@ -44,4 +44,9 @@ class tampilanController extends Controller
 
         return redirect('/master');
     }
+
+    public function viewKontak(){
+
+        return view('contact');
+    }
 }
