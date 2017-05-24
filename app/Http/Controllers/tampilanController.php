@@ -11,7 +11,7 @@ class tampilanController extends Controller
 {
     public function viewIndex(){
 
-        $data = DB::connection('pgsql.read')->select('* from actor')->get();
+        $data = m_actor::all();
 
         return view('index',compact('data'));
     }
