@@ -55,11 +55,11 @@
             {{csrf_field()}}
             <div class="form-group">
                 <label for="exampleInputEmail1">First Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First Name">
+                <input type="text" name="first_name" class="form-control" id="exampleInputEmail1" placeholder="First Name">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Last Name</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
+                <input type="text" name="last_name" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
             </div>
             <button type="submit" class="btn btn-primary">Save</button>
         </form>
