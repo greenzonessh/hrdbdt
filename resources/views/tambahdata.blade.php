@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>BDT</title>
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
         <nav>
             <ul class="nav nav-justified">
                 <li><a href="/">Home</a></li>
-                <li class="active"><a href="master">Lihat Data di master</a></li>
+                <li><a href="master">Lihat Data di master</a></li>
                 <li><a href="slave01">Lihat Data di slave01</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
