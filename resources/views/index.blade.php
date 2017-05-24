@@ -76,9 +76,9 @@
                     <td>{{$actors->last_update}}</td>
                 </tr>
             @endforeach
-            {!! $data->render() !!}
             </tbody>
         </table>
+        {!! $data->render() !!}
     </div>
 
     <!-- Site footer -->
