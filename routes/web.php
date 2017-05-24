@@ -15,4 +15,5 @@ Route::get('/','tampilanController@viewIndex');
 
 Route::get('/master','tampilanController@viewMaster');
 Route::get('/slave01','tampilanController@viewSlave01');
-Route::get('/tambah','tampilanController@tambah');
+Route::get('/tambah','tampilanController@viewTambah');
+Route::post('/tambah','tampilanController@tambah');
